@@ -189,5 +189,5 @@ This project is licensed under the MIT License. See the LICENSE file for details
 **Pritam Mondal**
 
 - Email: [pritam.mondal.dev@gmail.com](mailto:pritam.mondal.dev@gmail.com)
-- GitHub: [@pritammondal](https://github.com/pritammondal)
-- LinkedIn: [@pritammondal](https://linkedin.com/in/pritammondal)
+- GitHub: [@pritammondal-dev](https://github.com/pritammondal-dev)
+- LinkedIn: [@pritammondal-dev](https://www.linkedin.com/in/pritam-mondal-dev/)
