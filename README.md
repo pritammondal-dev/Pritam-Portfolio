@@ -102,6 +102,7 @@ Make sure you have Node.js (v18+) and npm installed on your system.
 ### Installation
 
 1. Clone or navigate to the repository directory:
+
    ```bash
    cd portfolio
    ```
@@ -138,13 +139,21 @@ npm run preview
 ## 🌐 Deployment
 
 The compiled static files inside `dist/` can be deployed instantly to modern hosts:
+
 - **Vercel**: Run `npx vercel` inside the root directory.
 - **Netlify**: Drag-and-drop the `dist/` folder or run `npx netlify-cli deploy`.
 - **Render**: Connect the GitHub repository and configure `npm run build` as build command and `dist` as publish directory.
 
 ## 📸 Screenshots
 
-*(Add your custom screenshots here)*
+![Hero Section](./screenshot/assets/HERO.png)
+![About Section](./screenshot/assets/ABOUT.png)
+![Skills Section](./screenshot/assets/SKILLS.png)
+![Projects Section](./screenshot/assets/PROJECTS.png)
+![Projects Modal](./screenshot/assets/PROJECTS_MODAL.png)
+![Experience Section](./screenshot/assets/EXPERIENCE.png)
+![Services Section](./screenshot/assets/SERVICES.png)
+![Contact Section](./screenshot/assets/CONTACT.png)
 
 ---
 
@@ -155,6 +164,7 @@ This project is licensed under the MIT License. See the LICENSE file for details
 ## ✍️ Author
 
 **Pritam Mondal**
+
 - Email: [pritam.mondal.dev@gmail.com](mailto:pritam.mondal.dev@gmail.com)
 - GitHub: [@pritammondal](https://github.com/pritammondal)
 - LinkedIn: [@pritammondal](https://linkedin.com/in/pritammondal)
