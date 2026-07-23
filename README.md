@@ -146,13 +146,36 @@ The compiled static files inside `dist/` can be deployed instantly to modern hos
 
 ## 📸 Screenshots
 
+## Hero Section
+
 ![Hero Section](./screenshot/assets/HERO.png)
+
+## About Section
+
 ![About Section](./screenshot/assets/ABOUT.png)
+
+## Skills Section
+
 ![Skills Section](./screenshot/assets/SKILLS.png)
+
+## Projects Section
+
 ![Projects Section](./screenshot/assets/PROJECTS.png)
+
+## Projects Modal
+
 ![Projects Modal](./screenshot/assets/PROJECTS_MODAL.png)
+
+## Experience Section
+
 ![Experience Section](./screenshot/assets/EXPERIENCE.png)
+
+## Services Section
+
 ![Services Section](./screenshot/assets/SERVICES.png)
+
+## Contact Section
+
 ![Contact Section](./screenshot/assets/CONTACT.png)
 
 ---
