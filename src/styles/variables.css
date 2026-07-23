@@ -1,0 +1,18 @@
+:root {
+  --bg-1: #09090F;
+  --bg-2: #101014;
+  --bg-3: #15151C;
+  --aurora-1: #53E0D7;
+  --aurora-2: #7CE7F3;
+  --aurora-3: #A78BFA;
+  --aurora-4: #D8B4FE;
+  --aurora-5: #6EE7B7;
+  --primary: #EA6113;
+  --secondary: #F88F22;
+  --highlight: #FBB931;
+  --heading: #FFFFFF;
+  --body: #C9CDD8;
+  --muted: #9CA3AF;
+  --glass-bg: rgba(255, 255, 255, 0.05);
+  --glass-border: rgba(255, 255, 255, 0.08);
+}

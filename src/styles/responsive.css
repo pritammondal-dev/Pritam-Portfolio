@@ -1,0 +1,26 @@
+/* Global responsive layout & touch overrides */
+
+@media (max-width: 1000px) {
+  section {
+    padding: 80px 0;
+  }
+}
+
+@media (max-width: 900px) {
+  body, button, a {
+    cursor: auto;
+  }
+  .cursor-dot, .cursor-ring {
+    display: none !important;
+  }
+  a,
+  button,
+  input,
+  .filter-chip,
+  .slider-arrow,
+  .skills-dot,
+  .nav-link,
+  .details-btn {
+    touch-action: manipulation;
+  }
+}

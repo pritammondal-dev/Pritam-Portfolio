@@ -1,0 +1,68 @@
+.aurora-wrap {
+  position: fixed;
+  inset: 0;
+  z-index: -2;
+  background: radial-gradient(circle at 20% 20%, var(--bg-3), var(--bg-1) 60%);
+  overflow: hidden;
+}
+
+.blob {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(90px);
+  opacity: 0.45;
+  mix-blend-mode: screen;
+  will-change: transform;
+}
+
+.blob-1 {
+  width: 46vw;
+  height: 46vw;
+  top: -12%;
+  left: -8%;
+  background: var(--aurora-1);
+  animation: float1 22s ease-in-out infinite;
+}
+
+.blob-2 {
+  width: 38vw;
+  height: 38vw;
+  top: 10%;
+  right: -10%;
+  background: var(--aurora-3);
+  animation: float2 26s ease-in-out infinite;
+}
+
+.blob-3 {
+  width: 34vw;
+  height: 34vw;
+  bottom: -10%;
+  left: 15%;
+  background: var(--aurora-5);
+  animation: float3 24s ease-in-out infinite;
+}
+
+.blob-4 {
+  width: 30vw;
+  height: 30vw;
+  bottom: 0%;
+  right: 10%;
+  background: var(--aurora-4);
+  animation: float4 28s ease-in-out infinite;
+}
+
+.blob-5 {
+  width: 24vw;
+  height: 24vw;
+  top: 40%;
+  left: 40%;
+  background: var(--aurora-2);
+  animation: float1 20s ease-in-out infinite reverse;
+}
+
+.noise {
+  position: absolute;
+  inset: 0;
+  opacity: 0.03;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
