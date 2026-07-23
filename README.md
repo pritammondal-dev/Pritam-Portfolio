@@ -120,7 +120,7 @@ To start the local development server with hot-module reloading:
 npm run dev
 ```
 
-The app will compile and be available on `http://localhost:5173`.
+The app will compile and be available on `http://localhost:3000`.
 
 ### Building the Project
 
@@ -148,35 +148,35 @@ The compiled static files inside `dist/` can be deployed instantly to modern hos
 
 ## Hero Section
 
-![Hero Section](./screenshot/assets/HERO.png)
+![Hero Section](./Screenshot/assets/HERO.png)
 
 ## About Section
 
-![About Section](./screenshot/assets/ABOUT.png)
+![About Section](./Screenshot/assets/ABOUT.png)
 
 ## Skills Section
 
-![Skills Section](./screenshot/assets/SKILLS.png)
+![Skills Section](./Screenshot/assets/SKILLS.png)
 
 ## Projects Section
 
-![Projects Section](./screenshot/assets/PROJECTS.png)
+![Projects Section](./Screenshot/assets/PROJECTS.png)
 
-## Projects Modal
+## Projects Model
 
-![Projects Modal](./screenshot/assets/PROJECTS_MODAL.png)
+![Projects Modal](./Screenshot/assets/PROJECT_MODEL.png)
 
 ## Experience Section
 
-![Experience Section](./screenshot/assets/EXPERIENCE.png)
+![Experience Section](./Screenshot/assets/EXPERIENCE.png)
 
 ## Services Section
 
-![Services Section](./screenshot/assets/SERVICES.png)
+![Services Section](./Screenshot/assets/SERVICES.png)
 
 ## Contact Section
 
-![Contact Section](./screenshot/assets/CONTACT.png)
+![Contact Section](./Screenshot/assets/CONTACT.png)
 
 ---
 
