@@ -45,7 +45,7 @@ export const siteConfig = {
     state: 'West Bengal',
     country: 'India',
     location: 'Basirhat, Kolkata, West Bengal, India',
-    resumeUrl: '/resume.pdf'
+    resumeUrl: '/Pritam_Mondal_Full_Stack_Developer_Resume.pdf'
   },
 
   // SEO Settings
