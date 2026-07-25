@@ -38,13 +38,13 @@ export const siteConfig = {
     lastName: 'Mondal',
     title: 'Full-Stack & Generative AI Developer',
     email: 'itspritam133@gmail.com',
-    phone: '',
+    phone: '+91 7810866098',
     whatsapp: '',
     address: '',
     city: 'Kolkata',
     state: 'West Bengal',
     country: 'India',
-    location: 'Kolkata, West Bengal, India',
+    location: 'Basirhat, Kolkata, West Bengal, India',
     resumeUrl: '/resume.pdf'
   },
 
