@@ -120,6 +120,29 @@ export default function Projects() {
               <h2 style={{ fontSize: '1.7rem', marginBottom: '4px' }}>{selectedProject.title}</h2>
               <p style={{ color: 'var(--muted)', fontSize: '0.92rem' }}>{selectedProject.desc}</p>
               
+              <div className="modal-actions">
+                {selectedProject.links?.github && selectedProject.links.github !== '#' && (
+                  <a
+                    href={selectedProject.links.github}
+                    className="modal-action-btn"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i className="fa-brands fa-github"></i> GitHub Repo
+                  </a>
+                )}
+                {selectedProject.links?.live && selectedProject.links.live !== '#' && (
+                  <a
+                    href={selectedProject.links.live}
+                    className="modal-action-btn primary"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i className="fa-solid fa-arrow-up-right-from-square"></i> Live Demo
+                  </a>
+                )}
+              </div>
+              
               <h3>{siteConfig.projects.techStackHeading}</h3>
               <div className="badge-row">
                 {selectedProject.tech.map((t) => (

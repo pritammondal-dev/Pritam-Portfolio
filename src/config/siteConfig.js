@@ -2,6 +2,9 @@ import profileImg from '../assets/images/profile/profile.png';
 import neurovaultImg from '../assets/images/projects/neurovault.png';
 import neurovaultChatImg from '../assets/images/projects/neurovault_chat.png';
 import neurovaultDocsImg from '../assets/images/projects/neurovault_docs.png';
+import neurovaultDashboardImg from '../assets/images/projects/Neurovault_Dashboard.png';
+import topicSectionImg from '../assets/images/projects/Topic_section.png';
+import folderStructureImg from '../assets/images/projects/Folder_structure.png';
 import studentManagementImg from '../assets/images/projects/student_management.png';
 import portfolioImg from '../assets/images/projects/portfolio.png';
 import eCommerceImg from '../assets/images/projects/ecommerce.png';
@@ -14,6 +17,9 @@ const images = {
     neuroVault: neurovaultImg,
     neuroVaultChat: neurovaultChatImg,
     neuroVaultDocs: neurovaultDocsImg,
+    Neurovault_Dashboard: neurovaultDashboardImg,
+    Topic_section: topicSectionImg,
+    Folder_structure: folderStructureImg,
     studentManagement: studentManagementImg,
     portfolio: portfolioImg,
     eCommerce: eCommerceImg,
@@ -206,20 +212,26 @@ export const siteConfig = {
     projectsData: [
       {
         title: 'NeuroVault',
-        img: images.projects.neuroVault,
+        img: images.projects.Neurovault_Dashboard,
         gallery: [
-          images.projects.neuroVault,
-          images.projects.neuroVaultChat,
-          images.projects.neuroVaultDocs,
-          images.projects.studentManagement,
-          images.projects.portfolio
+          images.projects.Neurovault_Dashboard,
+          images.projects.Topic_section,
+          images.projects.Folder_structure
         ],
-        desc: 'An AI-powered knowledge vault that ingests documents and lets users chat with their own data using retrieval-augmented generation.',
-        tech: ['React', 'Node.js', 'MongoDB', 'OpenAI API', 'Tailwind'],
-        features: ['Chat with uploaded documents', 'Vector search over embeddings', 'Multi-workspace support', 'Streaming AI responses'],
-        challenges: 'Designing an efficient chunking + embedding pipeline that kept retrieval accurate while staying within token limits, and building a smooth streaming UI for AI responses.',
-        lessons: 'Learned how retrieval-augmented generation pipelines work end to end, and how to balance UX with async streaming data.',
-        links: { github: '#', live: '#' }
+        desc: 'A full-stack knowledge management platform that helps users organize notes, documents, and ideas in structured workspaces. It provides a clean and efficient way to manage personal knowledge with secure authentication and powerful organization features.',
+        tech: ['React', 'Node.js', 'Express.js', 'MongoDB', 'Tailwind CSS'],
+        features: [
+          'Secure JWT authentication',
+          'Create, edit, and delete notes',
+          'Document upload and management',
+          'Workspace organization',
+          'Search and filtering',
+          'Responsive dashboard',
+          'Profile management'
+        ],
+        challenges: 'Designed a scalable backend architecture for managing user data, documents, and workspaces while implementing secure authentication, efficient database relationships, and a responsive user interface.',
+        lessons: 'Strengthened my full-stack development skills by building a complete MERN application with authentication, CRUD operations, file management, state management, and responsive UI design.',
+        links: { github: 'https://github.com/pritammondal-dev/NeuroVault', live: 'https://neuro-vault-liard.vercel.app' }
       },
       {
         title: 'Student Management System',
