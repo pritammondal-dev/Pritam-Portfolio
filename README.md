@@ -162,7 +162,7 @@ The compiled static files inside `dist/` can be deployed instantly to modern hos
 
 ![Projects Section](./Screenshot/assets/PROJECTS.png)
 
-## Projects Model
+## Projects Modal
 
 ![Projects Modal](./Screenshot/assets/PROJECT_MODEL.png)
 
